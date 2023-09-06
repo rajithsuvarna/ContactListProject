@@ -1,0 +1,17 @@
+{
+  "name": "contactlistproject",
+  "version": "1.0.0",
+  "description": "Contact list project is an web application to store contact details. This project is done using NODEJS,EJS Framework,CSS,Javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajith Suvarna D",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3"
+  }
+}

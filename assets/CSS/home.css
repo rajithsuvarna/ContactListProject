@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+#container-div {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+#container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  padding: 0;
+}
+li {
+  font-weight: bold;
+  margin-left: 0px;
+  padding: 8px;
+  border-bottom: 2px solid white;
+  width: 440px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li:hover {
+  background-color: lightgray;
+}
+#headingsection {
+  display: flex;
+  align-items: center;
+}
+#icon {
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+#myIcon {
+  font-size: 40px;
+  padding: 0;
+  margin: auto;
+}
+button {
+  background-color: black;
+  color: white;
+  width: 90px;
+  height: 40px;
+}
+button:hover {
+  background-color: rgb(3, 136, 47);
+  border-color: white;
+}
+input {
+  height: 30px;
+}
+.contact-details {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.delete-button {
+  margin-right: 3px;
+}
+.delete-button a {
+  color: red;
+  background-color: white;
+}
+.delete-button a i {
+  font-size: 20px;
+}
+.delete-button a:hover {
+  color: white;
+  background-color: red;
+}
